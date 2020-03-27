@@ -43,7 +43,7 @@ function promptUser() {
     {
       type: "input",
       name: "installation",
-      message: "How do you install your project?"
+      message: "Describe how to install your project?"
     },
     {
       type: "input",
@@ -57,18 +57,16 @@ function promptUser() {
     },
     {
       type: "input",
-      name: "contributing",
-      message: "How can someone contribute?"
+      name: "test",
+      message: "How is it tested?"
     },
     {
       type: "input",
-      name: "test",
-      message: "How is it tested?"
+      name: "contributing",
+      message: "Lastly, how can someone contribute?"
     }
   ]);
 }
-
-// ![Most recent commit](https://img.shields.io/github/last-commit/dylanhulbert/project-01)
 
 function generateReadme(readme) {
   return `# ${readme.projectName}
@@ -93,7 +91,7 @@ ${readme.contributing}
 ${readme.test}
 ## Support
 PHOTO GOES HERE
-* ${readme.userName} WILL NEED TO CREATE URL
+* ${readme.userName}
 * ${readme.userEmail}
 `;
 }
