@@ -1,7 +1,7 @@
-# f
+# gary2k
 BADGE GOES HERE
 ## Description
-f
+this creats a bunch of garys
 ## Table of Contents
 * [Installation](##Installation)
 * [Usage](##Usage)
@@ -9,16 +9,16 @@ f
 * [Contributing](##Contributing)
 * [Tests](##Tests)
 ## Installation
-f
+go to gary and ask
 ## Usage
-f
+garyfied
 ## License
-f
+no
 ## Contributing
-f
+no way
 ## Test
-f
+with gary
 ## Support
 PHOTO GOES HERE
-* f WILL NEED TO CREATE URL
-* f
+* gary WILL NEED TO CREATE URL
+* gary@gary.com

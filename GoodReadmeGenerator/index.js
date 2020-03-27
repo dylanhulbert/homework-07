@@ -12,7 +12,7 @@ promptUser()
     return writeFileAsync("output/README.md", html);
   })
   .then(function() {
-    console.log("Successfully created Readme.md");
+    console.log("Successfully created your README.md file!");
   })
   .catch(function(err) {
     console.log(err);
