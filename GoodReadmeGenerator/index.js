@@ -23,7 +23,7 @@ function promptUser() {
     {
       type: "input",
       name: "userName",
-      message: "What is your github user name?"
+      message: "What is your github username?"
     },
     {
       type: "input",
@@ -90,8 +90,9 @@ ${readme.contributing}
 ## Test
 ${readme.test}
 ## Support
-PHOTO GOES HERE
-* ${readme.userName}
-* ${readme.userEmail}
+**PHOTO GOES HERE**
+<br/>Contact me if you have any questions.
+<br/>**PROFILE NAME**
+<br/>${readme.userEmail}
 `;
 }

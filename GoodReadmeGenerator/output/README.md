@@ -1,7 +1,7 @@
 # project-01
-(https://img.shields.io/github/last-commit/dylanhulbert/project-01)
+![Most recent commit](https://img.shields.io/github/last-commit/dylanhulbert/project-01)
 ## Description
-d
+one
 ## Table of Contents
 * [Installation](##Installation)
 * [Usage](##Usage)
@@ -9,16 +9,17 @@ d
 * [Contributing](##Contributing)
 * [Tests](##Tests)
 ## Installation
-d
+one
 ## Usage
-d
+one
 ## License
-d
+one
 ## Contributing
-d
+one
 ## Test
-d
+one
 ## Support
-PHOTO GOES HERE
-* dylanhulbert WILL NEED TO CREATE URL
-* dylan@dylanhulbert.com
+**PHOTO GOES HERE**
+<br/>Contact me if you have any questions.
+<br/>**PROFILE NAME**
+<br/>dylan@dylanhulbert.com
