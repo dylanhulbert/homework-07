@@ -1,7 +1,7 @@
-# gary2k
-BADGE GOES HERE
+# project-01
+(https://img.shields.io/github/last-commit/dylanhulbert/project-01)
 ## Description
-this creats a bunch of garys
+d
 ## Table of Contents
 * [Installation](##Installation)
 * [Usage](##Usage)
@@ -9,16 +9,16 @@ this creats a bunch of garys
 * [Contributing](##Contributing)
 * [Tests](##Tests)
 ## Installation
-go to gary and ask
+d
 ## Usage
-garyfied
+d
 ## License
-no
+d
 ## Contributing
-no way
+d
 ## Test
-with gary
+d
 ## Support
 PHOTO GOES HERE
-* gary WILL NEED TO CREATE URL
-* gary@gary.com
+* dylanhulbert WILL NEED TO CREATE URL
+* dylan@dylanhulbert.com

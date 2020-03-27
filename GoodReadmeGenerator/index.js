@@ -33,7 +33,7 @@ function promptUser() {
     {
       type: "input",
       name: "projectName",
-      message: "What is the name of your project?"
+      message: "What is the name of your project (repository)?"
     },
     {
       type: "input",
@@ -68,9 +68,11 @@ function promptUser() {
   ]);
 }
 
+// ![Most recent commit](https://img.shields.io/github/last-commit/dylanhulbert/project-01)
+
 function generateReadme(readme) {
   return `# ${readme.projectName}
-BADGE GOES HERE
+![Most recent commit](https://img.shields.io/github/last-commit/${readme.userName}/${readme.projectName})
 ## Description
 ${readme.description}
 ## Table of Contents
