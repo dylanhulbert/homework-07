@@ -1,6 +1,8 @@
+// dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+// vars for axios and the markdown format file
 const api = require('./utils/api.js');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
@@ -48,7 +50,7 @@ const questions = [
   }
 ];
 
-// creates the readMe var
+// creates the readMe var with writeToFile function
 function writeToFile(fileName, data) {
     const readMe = generateMarkdown(data);
     return writeFileAsync(fileName, readMe)
@@ -61,9 +63,11 @@ function init() {
             api.getUser(data.username).then(function (gitRes) {
                 let newData = Object.assign(data, gitRes);
                 console.log(newData);
+                // creates the file 
                 writeToFile("README.md", newData)
             });
         });
 };
 
+// invokes the function
 init();
