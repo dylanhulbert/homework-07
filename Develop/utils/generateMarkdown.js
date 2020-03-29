@@ -21,7 +21,7 @@ ${data.test}
 ${data.contribute}
 ## Support
 <img src="${data.image}" width="200" height="200"/>
-<br/>Email ${data.name} with any support questions at ${data.email}
+<br/>Email ${data.name} with any support questions at ${data.accountemail}
 `;
 }
 module.exports = generateMarkdown;

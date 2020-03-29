@@ -12,6 +12,11 @@ function askUser() {
 			type: "input",
 			message: "What is your github username?",
 			name: "accountname"
+    },
+    {
+			type: "input",
+			message: "What is your github email address?",
+			name: "accountemail"
 		},
 		{
 			type: "input",
@@ -58,7 +63,6 @@ async function init() {
 		await api.getUser(readmefile.accountname).then(function (result) {
 			readmefile.image = result.data.avatar_url;
 			readmefile.name = result.data.name;
-			readmefile.email = result.data.email
 		});
 		const mdfile = generateMarkdown(readmefile);
 		await writeFileAsync("output/README.md", mdfile);
